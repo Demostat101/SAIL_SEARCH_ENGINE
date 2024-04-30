@@ -1,0 +1,15 @@
+[data-theme="dark"] {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+  --hr-color: white;
+  --bg-image: url("src/assets/images/pexels-pixabay-15239.jpg");
+  --border-pixel: 1px;
+}
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --hr-color: #ffffff;
+  --bg-image: url("src/assets/images/BackgroundImage.jpg");
+  --border-pixel: 2px;
+}

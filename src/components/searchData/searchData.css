@@ -1,0 +1,64 @@
+.result-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0.5em 2em;
+  background: linear-gradient(rgba(76, 91, 78, 0.6), rgba(76, 91, 78, 0.6)),
+    var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: white;
+}
+
+.result-page p {
+  margin-bottom: 10px;
+}
+
+.search-data {
+  border: 2px solid white;
+  border-radius: 5px;
+  max-width: 300px;
+  min-height: 100px;
+  padding: 1em;
+  text-align: left;
+  background: linear-gradient(
+    rgba(125, 131, 122, 0.5),
+    rgba(125, 131, 122, 0.5)
+  );
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textPage {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.headerPage {
+  color: white;
+}
+
+.search-data-result {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Prev,
+.Next {
+  width: 4em;
+  height: 2em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.prevNextBtn {
+  display: flex;
+  gap: 10px;
+  padding: 2em 0;
+}

@@ -1,0 +1,61 @@
+.headerContainer {
+  width: 100%;
+}
+
+.resultPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.resultPage .searchBox {
+  display: flex;
+  padding: 10px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+
+  border-radius: 25px;
+}
+
+form {
+  width: 100%;
+
+  border: 0px solid black;
+}
+
+.searchBox input {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  padding-left: 10px;
+}
+
+#mic {
+  margin-top: 20px;
+}
+
+.header {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .resultPage .searchBox {
+    width: 60%;
+  }
+}
